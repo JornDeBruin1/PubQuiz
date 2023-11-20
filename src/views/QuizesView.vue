@@ -14,44 +14,12 @@ quizes.value = q.filter(quiz => quiz.name.toLowerCase().includes(search.value.to
 
 <template>
   <div>
-    <header>
-      <h1>Quizes</h1>
-      <input v-model.trim="search" type="text" placeholder="Search...">
+    <header class="mb-3 mt-8 flex items-center">
+      <h1 class="font-bold mr-8">Quizes</h1>
+      <input class="border-none bg-[#8080801A] p-2.5 rounded" v-model.trim="search" type="text" placeholder="Search...">
     </header>
-    <div class="options-container">
+    <div class="flex flex-wrap mt-10">
       <Card v-for="quiz in quizes" :key="quiz.id" :quiz="quiz"></Card>
     </div>
   </div>
 </template>
-
-<style scoped> 
-
-  header{
-    margin-bottom: 10px;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-  }
-
-  header h1{
-    font-weight: bold;
-    margin-right: 30px;
-  }
-
-  header input{
-    border: none;
-    background-color: rgba(128, 128, 128, 0.1);
-    padding: 10px;
-    border-radius: 5px;
-  }
-
-  .options-container{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
-  }
-  /*  CARD  */
-
-
-  
-</style>

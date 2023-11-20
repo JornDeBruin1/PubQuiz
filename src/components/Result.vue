@@ -1,33 +1,32 @@
-<script setup>
-    import{ defineProps } from 'vue'
-    import { RouterLink } from 'vue-router'
-
-    const{quizQuestionlength, numberOfCorrectAnswers} = defineProps(["quizQuestionlength", "numberOfCorrectAnswers"]);
-
-
-</script>
-
 <template>
-    <div class="results">
-        <p>Your Results...</p>
-        <h1>
-            {{numberOfCorrectAnswers}}/{{quizQuestionlength}}
-        </h1>
-        <RouterLink to="/">Go Back</RouterLink>
+    <div>
+      <RouterLink to="/">Go Back</RouterLink>
+      <button>
+        <RouterLink v-if="route.params.id < 6" :to="`/quiz/${nextQuizId}`" @click="navigateToNext">Next</RouterLink>
+      </button>
     </div>
-</template>
-
-<style scoped>
-.results{
-    text-align: center;
-    padding: 100px 0;
-}
-
-p{
-    font-size: 25px;
-}
-
-h1{
-    font-size: 80px;
-}
-</style>
+  </template>
+  
+  <script setup>
+  import { ref, computed } from 'vue';
+  import { useRoute, RouterLink } from 'vue-router';
+  import router from '../router';
+  
+  const route = useRoute();
+  const currentQuizId = ref(parseInt(route.params.id, 6));
+  const nextQuizId = computed(() => currentQuizId.value + 1);
+  
+  const navigateToNext = () => {
+    console.log('Next quiz clicked');
+    console.log('Current quiz ID:', currentQuizId.value);
+    console.log('Next quiz ID:', nextQuizId.value);
+  
+    // Update currentQuizId after the navigation
+    router.push(`/quiz/${nextQuizId.value}`).then(() => {
+      currentQuizId.value = nextQuizId.value;
+      // Force a page refresh
+      window.location.reload(); 
+    });
+  };
+  </script>
+  

@@ -1,13 +1,14 @@
+<template>
+  <div class="mx-auto h-auto max-w-5xl my-0">
+    <RouterView/>
+  </div>
+</template>
+
 <script>
 import {RouterView} from 'vue-router'
-export default {
+export default{
   components: {
     RouterView,
   }
 }
 </script>
-<template>
-  <div class="max-w-5xl my-0 mx-auto">
-    <RouterView/>
-  </div>
-</template>

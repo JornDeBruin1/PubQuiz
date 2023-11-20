@@ -1,5 +1,26 @@
-<script setup>
+<template>
+    <div class="mt-5">
+        <h1 class="mb-5 text-5xl">
+            {{ question.text }}
+        </h1>
+    </div>
+    <div class="flex flex-col mt-10">
+        <div 
+            v-for="option in question.options" 
+            :key="option.id" 
+            class="flex mb-5 cursor-pointer" 
+            @click="emitSelectedOption(option.isCorrect)"
+        >
+            <p class="bg-pubquiz-primary w-12 h-12 flex items-center justify-center text-3xl">{{option.label}}</p>
+            <div class="text-3xl ml-5">
+                <p>{{option.text}}</p>
+            </div>
+        </div>
+    </div>
+</template>
 
+
+<script setup>
 import {defineProps, defineEmits} from 'vue'
 
 const emit = defineEmits(["selectOption"])
@@ -10,54 +31,3 @@ const emitSelectedOption = (isCorrect) => {
     emit("selectOption", isCorrect)
 }
 </script>
-
-<template>
-    <div class="question-container">
-        <h1 class="question">
-            {{ question.text }}
-        </h1>
-    </div>
-    <div class="options-container">
-        <div 
-            v-for="option in question.options" 
-            :key="option.id" 
-            class="option" 
-            @click="emitSelectedOption(option.isCorrect)"
-        >
-            <p class="option-label">{{option.label}}</p>
-            <div class="option-value">
-                <p>{{option.text}}</p>
-            </div>
-        </div>
-    </div>
-</template>
-
-<style scoped>
-.question-container{
-    margin-top: 20px;
-}
-.question{
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-.option{
-    display: flex;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-.option-label{
-    background-color: bisque;
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.option-value{
-    background: rgb(244,239,239);
-    width: 100%;
-    font-size: 30px;
-    padding: 0 20px;
-}
-</style>

@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "pubquiz-primary": "#00668A",
-        "pubquiz-secondary": "#004E71",
+        "pubquiz-primary": "#0097c0",
+        "pubquiz-secondary": "#0d607d",
         "pubquiz-tertiary": "#037ba3",
       },
     },
@@ -14,10 +14,6 @@ module.exports = {
     container: {
       padding: "2rem",
       center: true,
-    },
-    screens:{
-      sm: "640px",
-      md: "768px",
     },
   },
 }
