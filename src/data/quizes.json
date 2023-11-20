@@ -93,6 +93,156 @@
                         "isCorrect": false
                     }
                 ]
+            },
+            {
+                "id": 4,
+                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "9",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "16",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "9",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "16",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "9",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "16",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "9",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "16",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "9",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "16",
+                        "isCorrect": false
+                    }
+                ]
             }
         ]
     },
@@ -478,103 +628,6 @@
                         "id": 4,
                         "label": "D",
                         "text": "vuur",
-                        "isCorrect": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "img": "https://starwalk.space/gallery/images/games-preview/1140x599.jpg",
-        "name": "Algemene Kennis",
-        "questions": [
-            {
-                "id": 1,
-                "text": "Welk automerk is bekend om zijn snelle, exclusieve en peperdure wagens zoals de Veyron en de Chiron?",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "Lamborghini",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Ferrari",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "Aston Martion",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "Bugatti",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "Welke planeet uit ons zonnestelsel staat het dichts bij de zon?",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "Venus",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Aarde",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "Mercurius",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "Jupiter",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "Tussen welke 2 steden liep de eerste spoorlijn in Nederland?",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "Arnhem en Utrecht",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Rotterdam en Amsterdam",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "Amsterdam en Den Haag",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "Amsterdam en Haarlem",
                         "isCorrect": true
                     }
                 ]

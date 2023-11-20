@@ -3,9 +3,9 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "pubquiz-primary": "#0097c0",
-        "pubquiz-secondary": "#0d607d",
-        "pubquiz-tertiary": "#037ba3",
+        "pubquiz-primary": "#00a0cc",
+        "pubquiz-secondary": "#0097c0",
+        "pubquiz-tertiary": "#0387b7",
       },
     },
   fontFamily: {

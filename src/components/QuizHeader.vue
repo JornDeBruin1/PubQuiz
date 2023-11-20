@@ -1,39 +1,18 @@
-<script setup>
-    import { defineProps } from 'vue'
-
-    const {
-    questionStatus,
-     barPercentage
-     } = defineProps([
-        "questionStatus",
-         "barPercentage"
-    ])
-</script>
-
 <template>
-     <header>
-        <h4>Question {{ questionStatus }} </h4>
-        <div class="bar">
-            <div class="completion" :style="{width: barPercentage }"></div>
-        </div>
-    </header>
+  <header class="mt-10 w-full flex flex-col items-center">
+    <h4 class="text-4xl">Question {{ questionStatus }} </h4>
+    <div class="w-[300px] h-[50px] border-4 border-pubquiz-primary border-solid ">
+      <div class="h-full w-0 bg-pubquiz-primary" :style="{width: barPercentage }"></div>
+    </div>
+  </header>
 </template>
-<style scoped>
-    header {
-        margin-top: 20px;
-    }
-    header h4{
-        font-size:30px; 
 
-    }
-    .bar{
-        width: 300px;
-        height: 50px;
-        border: 3px solid bisque;
-    }
-    .completion{
-        height: 100%;
-        width: 0%;
-        background: bisque;
-    }
-</style>
+<script setup>
+import { defineProps } from 'vue';
+
+const { questionStatus, barPercentage } = defineProps([
+  'questionStatus',
+  'barPercentage'
+]);
+
+</script>

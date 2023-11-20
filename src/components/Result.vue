@@ -1,11 +1,13 @@
 <template>
-    <div>
-      <RouterLink to="/">Go Back</RouterLink>
-      <button>
-        <RouterLink v-if="route.params.id < 6" :to="`/quiz/${nextQuizId}`" @click="navigateToNext">Next</RouterLink>
-      </button>
+    <div class="w-full mt-[430px] pt-10  flex justify-between text-2xl">
+        <button type="button" class=" rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary ">
+            <RouterLink to="/"><i class="fa-solid fa-house pr-5"></i>Home</RouterLink>
+        </button>
+        <button type="button" class="rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary">
+            <RouterLink v-if="route.params.id < 5" :to="`/quiz/${nextQuizId}`" @click="navigateToNext">Next<i class="fa-solid fa-arrow-right pl-5"></i></RouterLink>
+        </button>
     </div>
-  </template>
+</template>
   
   <script setup>
   import { ref, computed } from 'vue';
@@ -13,13 +15,10 @@
   import router from '../router';
   
   const route = useRoute();
-  const currentQuizId = ref(parseInt(route.params.id, 6));
+  const currentQuizId = ref(parseInt(route.params.id, 5));
   const nextQuizId = computed(() => currentQuizId.value + 1);
   
   const navigateToNext = () => {
-    console.log('Next quiz clicked');
-    console.log('Current quiz ID:', currentQuizId.value);
-    console.log('Next quiz ID:', nextQuizId.value);
   
     // Update currentQuizId after the navigation
     router.push(`/quiz/${nextQuizId.value}`).then(() => {
