@@ -7,7 +7,7 @@ export default {
 }
 </script>
 <template>
-  <div class="w-full my-0 mx-auto">
+  <div class="max-w-5xl my-0 mx-auto">
     <RouterView/>
   </div>
 </template>

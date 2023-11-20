@@ -1,0 +1,584 @@
+[
+    {
+        "id": 1,
+        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
+        "name": "Rekenen",
+        "questions": [
+            {
+                "id": 1,
+                "text": "8 ÷ 2(2 + 2)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "16",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "8",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "24",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": " √64 * 9",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "4",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "81",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "72",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "144",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "3 + 3 x 3 ÷ 3 - 3",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "9",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "16",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
+        "name": "Biologie",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Welk kleur bloed hebben inktvissen, kreeften en krabben?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Blauw",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Rood",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Paars",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Geel",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Welk dier maakt jaarlijks een slordige 725.000 menselijke slachtoffers en is daarmee het dodelijkste dier ter wereld?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Haai",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Leeuw",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "VogelSpin",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Mug",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Een groep uilen noemen we een 'parlement' uilen en een groep ganzen noemen we een 'toom' ganzen. Maar hoe noemen we een groep konijnen?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Een school konijnen",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Een sprong konijnen",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Een kudde konijnen",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Een roedel konijnen",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+        "name": "Scheikunde en Wetenschap",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Met behulp van wiens stelling kan je makkelijk de lengtes van de zijden van een rechthoekige driehoek berekenen?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Pythagoras",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Isaac Newton",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Galileo Galilei",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Albert Einstein",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "De grootste maan van Saturnus is groter dan de planeet Mercurius. Hoe heet deze maan?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Mimas",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Dione",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Lapetus",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Titan",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Wat is de eenheid van elektrische weerstand? ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Watt",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Ohm",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Volt",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Ampère",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "https://thumbs.dreamstime.com/b/magnetisch-kompas-op-wereldkaart-reis-aardrijkskunde-navigatie-tou-123256998.jpg",
+        "name": "Aadrijkskunde",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Wat is de hoofdstad van Australië",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Canberra",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Brisbane",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Adelaide",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Sydney",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Wat is de grootste oceaan te wereld",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Atlantische Oceaan",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Indische Oceaan",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Noordelijke IJszee",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "De Grote of Stille Oceaan",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Welke Europese hoofdstad heeft als bijnaam 'de eeuwige stad'? ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Zurich (Zwitserland)",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Rome (Italië)",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Athene (Griekenland)",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Segovia (Spanje)",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "https://media-01.imu.nl/storage/helderdromen.nl/667/de-geschiedenis-van-dromen-over-het-duiden-en-verklaren-van-je-droom-helder-dromen-1170x500.jpg?t=1626415405",
+        "name": "Geschiedenis",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Welke vulkaan bedolf Pompeï in 79 na Christus?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Etna",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Vesuvius",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Fuji",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Bromo",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Wie kroonde zichzelf to keizer in 1804",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Napoleon Bonaparte",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Julius Caesar",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Karel de Grote",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Wilhelm II",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Wat wordt beschouwd als de eerste menselijke technologie? ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Het wiel",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Speren",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Elektriciteit",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "vuur",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "https://starwalk.space/gallery/images/games-preview/1140x599.jpg",
+        "name": "Algemene Kennis",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Welk automerk is bekend om zijn snelle, exclusieve en peperdure wagens zoals de Veyron en de Chiron?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Lamborghini",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Ferrari",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Aston Martion",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Bugatti",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Welke planeet uit ons zonnestelsel staat het dichts bij de zon?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Venus",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Aarde",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Mercurius",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Jupiter",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Tussen welke 2 steden liep de eerste spoorlijn in Nederland?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Arnhem en Utrecht",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Rotterdam en Amsterdam",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Amsterdam en Den Haag",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Amsterdam en Haarlem",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    }
+]
