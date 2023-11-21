@@ -8,11 +8,11 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
+    import { defineProps } from 'vue';
 
-const { questionStatus, barPercentage } = defineProps([
-  'questionStatus',
-  'barPercentage'
-]);
+    const { questionStatus, barPercentage } = defineProps([
+    'questionStatus',
+    'barPercentage'
+    ]);
 
 </script>
