@@ -1,23 +1,360 @@
 [
     {
         "id": 1,
-        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
-        "name": "Rekenen",
+        "img": "src/assets/images/film.jpg",
+        "name": "Film",
         "questions": [
             {
                 "id": 1,
-                "text": "8 ÷ 2(2 + 2)",
+                "text": "In welk land zijn de The Lord of the Rings films opgenomen?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "16",
+                        "text": "Ierland",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Nieuw-Zeeland",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Oostenrijk",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Noorwegen",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Welke acteur speelt de rol van Ryan in Saving Private Ryan?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Matt Damon",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "1",
+                        "text": "Andrew Garfield",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Tom Cruise",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Tom Hanks",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Wie speelt de hoofdrol in de film Oppenheimer (2023)?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Robert Downey jr",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Tom Hiddleston",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Cillian Murphy",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Nicolas Cage",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Welke beroemde acteur speelde The Penguin in The Batman (2021)?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Ryan Gosling",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Gustaf Skarsgård",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Colin Farrell",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Robert De Niro",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "In welk jaar ging de eerste Shrek film in premiere?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "2001",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "2000",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "2003",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "2005",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Welke acteur speelde de rol van de Joker in de Joker(2019)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "heath ledger",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Tom Hardy",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Russel Crowe",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Joaquin Phoenix",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Who created Star Wars",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Christopher Nolan",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "George Lucas",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Quentin Tarantino",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Steven Spielberg",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Which Star Wars characters appear in Indiana Jones?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Han Solo and Chewbacca",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Yoda and Obi-Wan Kenobi",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Luke Skywalker and Princess Leia",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "R2-D2 and C-3PO",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "src/assets/images/geschiedenis.jpg",
+        "name": "Geschiedenis",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Welke Nederlandse stad werd tijdens de Tweede Oorlog zwaar gebombardeerd door geallieerde troepen tijdens Operatie Market Garden?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Arnhem",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Rotterdam",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Amsterdam",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Nijmegen ",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Welke persoon werd vermoord, wat leidde tot het begin van de Eerste Wereldoorlog?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Koning Umberto I van Italië",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Grigori Raspoetin",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "kroon prins Franz Ferdinand",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "President William McKinley",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Naar welke twee eilanden werd Napoleon verbannen",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Île-de-Bréhat, Bermuda",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Elba, st Helena",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Île-de-Batz, Maritius ",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Île d'Yeu, Isla Santa cruz ",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Op hoeveel heuvels werd de oude stad Rome gebouwd?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "4",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "6",
                         "isCorrect": false
                     },
                     {
@@ -29,314 +366,127 @@
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "24",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": " √64 * 9",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "4",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "81",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "72",
+                        "text": "7",
                         "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "144",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "3 + 3 x 3 ÷ 3 - 3",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "3",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "1",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "9",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "16",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "text": "4",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "3",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "1",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "9",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "16",
-                        "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 5,
-                "text": "5",
+                "text": "Who discovered Greenland",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "3",
-                        "isCorrect": true
+                        "text": "Marco Polo",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "1",
+                        "text": "Christoffel Columbus",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "9",
-                        "isCorrect": false
+                        "text": "Viking Erik the Red",
+                        "isCorrect": true
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "16",
+                        "text": "Charles Darwin",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 6,
-                "text": "6",
+                "text": "Wat is de moderne naam van de stad die vroeger bekend stond als Constantinopel?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "3",
+                        "text": "Istanbul",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "1",
+                        "text": "Sint-petersburg",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "9",
+                        "text": "Ankara",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "16",
+                        "text": "Beirut",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 7,
-                "text": "7",
+                "text": "Welke Japanse stad, samen met Hiroshima, werd in 1945 getroffen door een atoombom?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "3",
-                        "isCorrect": true
+                        "text": "Fukushima",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "1",
+                        "text": "Tokio",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "9",
+                        "text": "Osaka",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "16",
-                        "isCorrect": false
+                        "text": "Nagasaki",
+                        "isCorrect": true
                     }
                 ]
             },
             {
                 "id": 8,
-                "text": "8",
+                "text": "Wie was de leider van de USSR (Sovjet Unie) ",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "3",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "1",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "9",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "16",
-                        "isCorrect": false
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
-        "name": "Biologie",
-        "questions": [
-            {
-                "id": 1,
-                "text": "Welk kleur bloed hebben inktvissen, kreeften en krabben?",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "Blauw",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Rood",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "Paars",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "Geel",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "Welk dier maakt jaarlijks een slordige 725.000 menselijke slachtoffers en is daarmee het dodelijkste dier ter wereld?",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "Haai",
+                        "text": "Vladimir Lenin",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Leeuw",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "VogelSpin",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "Mug",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "Een groep uilen noemen we een 'parlement' uilen en een groep ganzen noemen we een 'toom' ganzen. Maar hoe noemen we een groep konijnen?",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "Een school konijnen",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Een sprong konijnen",
+                        "text": "Jozef Stalin",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Een kudde konijnen",
+                        "text": "Nikita Chroesjtsjov",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Een roedel konijnen",
+                        "text": "Michail Gorbatsjov",
                         "isCorrect": false
                     }
                 ]
@@ -345,96 +495,246 @@
     },
     {
         "id": 3,
-        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-        "name": "Scheikunde en Wetenschap",
+        "img": "src/assets/images/Sport.jpg",
+        "name": "Sport",
         "questions": [
             {
                 "id": 1,
-                "text": "Met behulp van wiens stelling kan je makkelijk de lengtes van de zijden van een rechthoekige driehoek berekenen?",
+                "text": "In welke stad wordt het tennistoernooi Australian Open gespeeld?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Pythagoras",
+                        "text": "Melbourne",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Isaac Newton",
+                        "text": "Sydney",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Galileo Galilei",
+                        "text": "Adelaide",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Albert Einstein",
+                        "text": "Brisbane",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "De grootste maan van Saturnus is groter dan de planeet Mercurius. Hoe heet deze maan?",
+                "text": "Welk land won in 2018 het Wereldkampioenschap hockey voor dames in Londen, door in de finale Ierland te verslaan?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Mimas",
+                        "text": "Duitsland",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Dione",
+                        "text": "Amerika",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Lapetus",
+                        "text": "België",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Titan",
+                        "text": "Nederland",
                         "isCorrect": true
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "Wat is de eenheid van elektrische weerstand? ",
+                "text": "In augustus 2020 werd Tadej Pogacar de eerste wielrenner uit welk land in Centraal-Europa die de Tour de France won?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Watt",
+                        "text": "Servië",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Ohm",
+                        "text": "Hongarije",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Slovenië",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Slowakije",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "In welk jaar won Nederland het ek voetbal?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1990",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1988",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Volt",
+                        "text": "1980",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Ampère",
+                        "text": "1978",
                         "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Wie scoorde het beroemde 'Hand van God'-doelpunt tijdens het FIFA Wereldkampioenschap Voetbal van 1986?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Diego Maradona",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Marco van Basten",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Ruud Gullit",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Luis Fernández",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Uit welk land komt Novak Djokovic?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Slovenië",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Slowakije",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Servië",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Tsjechië",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Bob and Mike Bryan were well known brothers in which sport",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Atletiek",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Tennis",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Voetbal",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Beach volleybal",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Welke stad organiseerde de Olympische Zomerspelen in 2004?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Atlanta, Verenigde Staten",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Tokio, Japan",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Rome, Italië",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Athene, Griekenland",
+                        "isCorrect": true
                     }
                 ]
             }
@@ -442,11 +742,71 @@
     },
     {
         "id": 4,
-        "img": "https://thumbs.dreamstime.com/b/magnetisch-kompas-op-wereldkaart-reis-aardrijkskunde-navigatie-tou-123256998.jpg",
+        "img": "src/assets/images/Aadrijkskunde.jpg",
         "name": "Aadrijkskunde",
         "questions": [
             {
                 "id": 1,
+                "text": "In welke Amerikaanse staat bevindt zich grotendeels de Grand Canyon?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Nevada",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Arizona",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Utah",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Colorado",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Wat is het kleinste land ter wereld?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Monaco",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "San marino",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Gibraltar",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Vaticaanstad",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
                 "text": "Wat is de hoofdstad van Australië",
                 "options": [
                     {
@@ -476,61 +836,151 @@
                 ]
             },
             {
-                "id": 2,
-                "text": "Wat is de grootste oceaan te wereld",
+                "id": 4,
+                "text": "Aan welk land behoort Paaseiland?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Atlantische Oceaan",
+                        "text": "Peru",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Indische Oceaan",
+                        "text": "Nieuw-Zeeland",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Noordelijke IJszee",
+                        "text": "Chili",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Portugal",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "In welke stad vind je de toren van Pisa?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Rome",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Pisa",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Milaan",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "De Grote of Stille Oceaan",
+                        "text": "Napels",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Parijs krijg je cadeau. Maar wat is daarna naar bevolking de grootste stad in Frankrijk?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Lyon",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Marseille",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Nice",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Toulouse",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Hoe heet het klimaatgebied in de poolstreek waar enkel grassen, mossen en dwergstruiken groeien en de grond altijd bevroren is",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Steppe",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "IJswoestijn",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Savanne",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Toendra",
                         "isCorrect": true
                     }
                 ]
             },
             {
-                "id": 3,
-                "text": "Welke Europese hoofdstad heeft als bijnaam 'de eeuwige stad'? ",
+                "id": 8,
+                "text": "Welke kleur komt in vlaggen over de hele wereld het meeste voor?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Zurich (Zwitserland)",
-                        "isCorrect": false
+                        "text": "Rood",
+                        "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Rome (Italië)",
-                        "isCorrect": true
+                        "text": "Blauw",
+                        "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Athene (Griekenland)",
+                        "text": "Geel",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Segovia (Spanje)",
+                        "text": "Groen",
                         "isCorrect": false
                     }
                 ]
@@ -539,95 +989,245 @@
     },
     {
         "id": 5,
-        "img": "https://media-01.imu.nl/storage/helderdromen.nl/667/de-geschiedenis-van-dromen-over-het-duiden-en-verklaren-van-je-droom-helder-dromen-1170x500.jpg?t=1626415405",
-        "name": "Geschiedenis",
+        "img": "src/assets/images/algemene_kennis.jpg",
+        "name": "Algemene kennis",
         "questions": [
             {
                 "id": 1,
-                "text": "Welke vulkaan bedolf Pompeï in 79 na Christus?",
+                "text": "Welke koning in een spel kaarten heeft als enige geen snor?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Etna",
+                        "text": "De Schoppen koning",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Vesuvius",
+                        "text": "De Harten koning",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Fuji",
+                        "text": "De Ruiten Koning",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Bromo",
+                        "text": "De Klaveren koning",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "Wie kroonde zichzelf to keizer in 1804",
+                "text": "Wat zijn de eerste 6 letters van een Frans en Belgisch toetsenbord?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Napoleon Bonaparte",
+                        "text": "AZERTY",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Julius Caesar",
+                        "text": "QWERTY",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Karel de Grote",
+                        "text": "QWERTZ",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Wilhelm II",
+                        "text": "QZERTY",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "Wat wordt beschouwd als de eerste menselijke technologie? ",
+                "text": "Welk speelstuk kan bij stratego als enige de bom uitschakelen?s",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Het wiel",
+                        "text": "Een maarschalk",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Speren",
+                        "text": "Een sergeant",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Elektriciteit",
+                        "text": "Een Verkenner",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "vuur",
+                        "text": "Een Mineur",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Welke planeet in ons zonnestelsel heeft de meeste manen?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Mars",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Saturnus",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Jupiter",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Uranus",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Hoeveel ringen zijn er op de Olympische vlag?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "4",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "7",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "6",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Waar staat de afkorting WiFi voor",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Worldwide Information Fusion",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Wireless Fidelity",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Waveform of Infrared",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Wireless Frequency",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Wat is de naam van de grootste vulkaan in Italië?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Etna",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Vesuvius",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Campi Flegrei",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Monte Nuovo",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Van wie is de evolutietheorie afkomstig?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Marie Curie",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Aristoteles",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Galileo Galilei",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Charles Darwin",
                         "isCorrect": true
                     }
                 ]
