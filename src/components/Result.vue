@@ -3,8 +3,8 @@
         <button type="button" class=" rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary ">
             <RouterLink to="/"><i class="fa-solid fa-house pr-5"></i>Home</RouterLink>
         </button>
-        <button type="button" class="rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary">
-            <RouterLink v-if="route.params.id < 5" :to="`/quiz/${nextQuizId}`" @click="navigateToNext">Next<i class="fa-solid fa-arrow-right pl-5"></i></RouterLink>
+        <button v-if="route.params.id < 5" type="button" class="rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary">
+            <RouterLink :to="`/quiz/${nextQuizId}`" @click="navigateToNext">Next<i class="fa-solid fa-arrow-right pl-5"></i></RouterLink>
         </button>
     </div>
 </template>
