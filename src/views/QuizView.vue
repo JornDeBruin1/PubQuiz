@@ -66,7 +66,19 @@ const navigate = (direction) => {
         :numberOfCorrectAnswers="numberOfCorrectAnswers"
       />
     </div>
-    <button v-if="!showResults && currentQuestionIndex > 0" @click="navigate('prev')">Previous Question</button>
-    <button v-if="!showResults" @click="navigate('next')">Next Question</button>
+    <div class="flex justify-between mt-4">
+      <button 
+        class="rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary text-base" 
+        v-if="!showResults && currentQuestionIndex > 0" @click="navigate('prev')"
+      >
+        Previous Question
+      </button>
+      <button 
+        class="rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary text-base" 
+        v-if="!showResults" @click="navigate('next')"
+      >
+        Next Question
+      </button>
+    </div>
   </div>
 </template>
