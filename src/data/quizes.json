@@ -156,7 +156,7 @@
             },
             {
                 "id": 6,
-                "text": "Welke acteur speelde de rol van de Joker in de Joker(2019)",
+                "text": "Welke acteur speelde de rol van de Joker in de Joker (2019)",
                 "options": [
                     {
                         "id": 1,
@@ -216,30 +216,30 @@
             },
             {
                 "id": 8,
-                "text": "Which Star Wars characters appear in Indiana Jones?",
+                "text": "In Indiana Jones and the Raiders of the Lost Ark is er een verborgen Star Wars referentie in de vorm van hieroglyfen. Welke twee Star Wars karakters zijn te zien op de muur in de scène waar Indiana Jones de Ark ontdekt?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Han Solo and Chewbacca",
+                        "text": "Han Solo en Chewbacca",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Yoda and Obi-Wan Kenobi",
+                        "text": "Yoda en Darth vader (Anakin skywalker)",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Luke Skywalker and Princess Leia",
+                        "text": "Luke Skywalker en Princess Leia",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "R2-D2 and C-3PO",
+                        "text": "R2-D2 en C-3PO",
                         "isCorrect": true
                     }
                 ]
@@ -500,7 +500,7 @@
         "questions": [
             {
                 "id": 1,
-                "text": "In welke stad wordt het tennistoernooi Australian Open gespeeld?",
+                "text": "In welke stad wordt sinds 1972 het tennistoernooi Australian Open gespeeld?",
                 "options": [
                     {
                         "id": 1,
@@ -837,7 +837,7 @@
             },
             {
                 "id": 4,
-                "text": "Aan welk land behoort Paaseiland?",
+                "text": "Tot welk land behoort Paaseiland?",
                 "options": [
                     {
                         "id": 1,
@@ -897,7 +897,7 @@
             },
             {
                 "id": 6,
-                "text": "Parijs krijg je cadeau. Maar wat is daarna naar bevolking de grootste stad in Frankrijk?",
+                "text": "Parijs krijg je cadeau. Maar wat is daarna (op basis van bevolkingsgrootte) de grootste stad in Frankrijk?",
                 "options": [
                     {
                         "id": 1,
@@ -927,7 +927,7 @@
             },
             {
                 "id": 7,
-                "text": "Hoe heet het klimaatgebied in de poolstreek waar enkel grassen, mossen en dwergstruiken groeien en de grond altijd bevroren is",
+                "text": "Hoe heet het klimaatgebied waar enkel grassen, mossen en dwergstruiken groeien en de grond altijd bevroren is?",
                 "options": [
                     {
                         "id": 1,
@@ -1054,7 +1054,7 @@
             },
             {
                 "id": 3,
-                "text": "Welk speelstuk kan bij stratego als enige de bom uitschakelen?s",
+                "text": "Welk speelstuk kan bij stratego als enige de bom uitschakelen?",
                 "options": [
                     {
                         "id": 1,
