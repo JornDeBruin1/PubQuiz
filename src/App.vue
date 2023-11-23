@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto h-auto max-w-5xl my-0">
     <RouterView v-slot="{Component}">
-      <transition name="slide-down" mode="out-in">
+      <transition name="fade" mode="out-in">
         <Component :is="Component" key="$route.fullPath"/>
       </transition>
     </RouterView>
@@ -18,15 +18,16 @@ export default{
 </script>
 
 <style>
-  .fade-enter-from, 
-  .fade-leave-to{
-    opacity: 0;
-  }
-  
-  .fade-enter-active,
-  .fade-leave-active{
-    transition: opacity 3s ease-out;
-  }
+.fade-enter-from,
+.fade-leave-to{
+opacity: 0;  
+}
+.fade-enter-active,
+.fade-leave-active{
+  transition: 0.7s ease-out;
+}
+
+
   .slide-down-enter-from, 
   .slide-down-leave-to{
     opacity: 0;
@@ -37,4 +38,5 @@ export default{
   .slide-down-leave-active{
     transition: 1s ease-out;
   }
+
 </style>

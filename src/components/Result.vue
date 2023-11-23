@@ -33,7 +33,7 @@ onMounted(() => {
 
 const clickable = computed(() => nextQuizId.value < quizes.value.length);
 
-const displayedQuiz = ref(null); // Add this
+const displayedQuiz = ref(null);
 
 const handleImageLoad = () => {
   isImageLoaded.value = true;
@@ -50,15 +50,17 @@ const navigateToNext = () => {
   router.push(`/quiz/${nextQuizId.value}`).then(() => {
     setTimeout(() => {
       currentQuizId.value = nextQuizId.value;
-    }, 800); // delay currentQuizId update by 1 second
+    }, 800);
     window.location.reload();
   });
 };
 
 onMounted(() => {
+  if(nextQuizId < 5){
   importImagePath();
-  quizTitle.value = nextQuiz.value.name; // Set the initial displayed quiz
+  quizTitle.value = nextQuiz.value.name;
   displayedQuiz.value = { ...nextQuiz.value };
+  }
 });
 const shouldShowTitle = computed(() => {
   console.log('isImageLoaded:', isImageLoaded.value);
@@ -90,7 +92,7 @@ const shouldShowTitle = computed(() => {
             v-show="isImageLoaded"
           />
           <h2 v-if="shouldShowTitle" class="text-3xl font-bold mx-auto">{{ nextQuiz.name }}</h2>
-          <h2 v-else class="text-3xl font-bold mx-auto" style="display: none;">The End</h2>
+          <h2 v-else class="text-3xl font-bold mx-auto">The End</h2>
         </div>
       </div>
       <div class="w-full flex justify-between text-2xl">
