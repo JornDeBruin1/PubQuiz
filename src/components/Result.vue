@@ -15,7 +15,7 @@ const nextQuiz = computed(() => quizes.value.find((q) => q.id === nextQuizId.val
 
 const quizImage = ref(undefined);
 const isImageLoaded = ref(false);
-
+const quizTitle = ref("");
 const importImagePath = () => {
   if (nextQuiz.value && nextQuiz.value.img) {
     quizImage.value = nextQuiz.value.img;
@@ -33,43 +33,70 @@ onMounted(() => {
 
 const clickable = computed(() => nextQuizId.value < quizes.value.length);
 
+const displayedQuiz = ref(null); // Add this
+
 const handleImageLoad = () => {
   isImageLoaded.value = true;
+  displayedQuiz.value = { ...nextQuiz.value }; // Update the displayed quiz here
 };
+
+// And in your navigateToNext method
 
 const navigateToNext = () => {
   if (!clickable.value) {
     return;
   }
 
-  isImageLoaded.value = false;
-  
   router.push(`/quiz/${nextQuizId.value}`).then(() => {
-    currentQuizId.value = nextQuizId.value;
+    setTimeout(() => {
+      currentQuizId.value = nextQuizId.value;
+    }, 800); // delay currentQuizId update by 1 second
     window.location.reload();
   });
 };
+
+onMounted(() => {
+  importImagePath();
+  quizTitle.value = nextQuiz.value.name; // Set the initial displayed quiz
+  displayedQuiz.value = { ...nextQuiz.value };
+});
+const shouldShowTitle = computed(() => {
+  console.log('isImageLoaded:', isImageLoaded.value);
+  console.log('nextQuiz:', nextQuiz.value);
+  return isImageLoaded.value && nextQuiz.value;
+});
+
 </script>
 
 <template>
-  <div class="flex flex-wrap mt-10">
-    <div class="w-full flex justify-center">
-      <h1 class="text-3xl font-bold mb-[50px]">
-        Volgende Ronde: 
-      </h1>
+  <div>
+    <div class="flex flex-wrap mt-10">
+      <div class="w-full flex justify-center">
+        <h1 v-if="nextQuizId < 5" class="text-3xl font-bold mb-[50px]">
+          Volgende Ronde:
+        </h1>
+        </div>
+        <div
+          class="flex flex-col justify-evenly w-[400px] h-[450px] mx-auto shadow-Custom bg-white cursor-pointer rounded-2xl"
+          @click="navigateToNext"
+          :class="{ 'pointer-events-none': !clickable }"
+          :key="nextQuizId"
+        >
+          <img
+            :src="quizImage"
+            alt="Quiz Picture"
+            class="h-[300px] w-full mt-[-60px] rounded-2xl"
+            @load="handleImageLoad"
+            v-show="isImageLoaded"
+          />
+          <h2 v-if="shouldShowTitle" class="text-3xl font-bold mx-auto">{{ nextQuiz.name }}</h2>
+          <h2 v-else class="text-3xl font-bold mx-auto" style="display: none;">The End</h2>
+        </div>
+      </div>
+      <div class="w-full flex justify-between text-2xl">
+        <button type="button" class="rounded text-white p-3 bg-pubquiz-primary hover:bg-pubquiz-tertiary">
+          <RouterLink to="/"><i class="fa-solid fa-house pr-5"></i>Home</RouterLink>
+        </button>
+      </div>
     </div>
-    <div 
-      class="flex flex-col justify-evenly w-[400px] h-[450px] mx-auto shadow-Custom bg-white cursor-pointer rounded-2xl"
-      @click="navigateToNext"
-      :class="{ 'pointer-events-none': !clickable }"
-    >
-      <img :src="quizImage" alt="Quiz Picture" class="h-[300px] w-full mt-[-60px] rounded-2xl" @load="handleImageLoad" v-show="isImageLoaded">
-      <h2 v-if="isImageLoaded" class="text-3xl font-bold mx-auto">{{ nextQuiz ? nextQuiz.name : 'End' }}</h2>
-    </div>
-  </div>
-  <div class="w-full flex justify-between text-2xl">
-    <button type="button" class="rounded text-white p-3 bg-pubquiz-primary hover:bg-pubquiz-tertiary">
-      <RouterLink to="/"><i class="fa-solid fa-house pr-5"></i>Home</RouterLink>
-    </button>
-  </div>
 </template>
