@@ -4,7 +4,7 @@
   </div>
   <div class="flex flex-col mt-10">
     <div class="flex mb-5" v-for="option in question.options" :key="option.id">
-      <p class="bg-pubquiz-primary w-12 h-12 flex items-center justify-center text-3xl text-white">{{ option.label }}</p>
+      <p class="bg-pubquiz-primary w-12 h-12 flex items-center justify-center text-3xl text-black font-semibold">{{ option.label }}</p>
       <div class="text-3xl ml-5">
         <p>{{ option.text }}</p>
       </div>

@@ -9,7 +9,7 @@ module.exports = {
         "pubquiz-tertiary": "#0387b7",
       },
       boxShadow:{
-        'Custom' :'10px 5px 10px rgb(0,0,0,0.1)'
+        'Custom' :'10px 5px 10px rgb(0,0,0,0.1)',
       }
     },
   fontFamily: { 

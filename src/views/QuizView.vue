@@ -68,13 +68,13 @@ const navigate = (direction) => {
     </div>
     <div class="flex justify-between mt-4">
       <button 
-        class="rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary text-base" 
+        class="rounded text-black font-semibold p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary text-xl" 
         v-if="!showResults && currentQuestionIndex > 0" @click="navigate('prev')"
       >
         Previous Question
       </button>
       <button 
-        class="rounded text-white p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary text-base" 
+        class="rounded text-black font-semibold text-xl p-3  bg-pubquiz-primary hover:bg-pubquiz-tertiary" 
         v-if="!showResults" @click="navigate('next')"
       >
         Next Question

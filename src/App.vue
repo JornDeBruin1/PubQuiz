@@ -7,7 +7,6 @@
     </RouterView>
   </div>
 </template>
-
 <script>
 import {RouterView} from 'vue-router'
 export default{
@@ -16,27 +15,24 @@ export default{
   }
 }
 </script>
-
 <style>
-.fade-enter-from,
-.fade-leave-to{
-opacity: 0;  
-}
-.fade-enter-active,
-.fade-leave-active{
-  transition: 0.7s ease-out;
-}
 
+  .fade-enter-from,
+  .fade-leave-to{
+  opacity: 0;  
+  }
+  .fade-enter-active,
+  .fade-leave-active{
+    transition: 0.7s ease-out;
+  }
 
   .slide-down-enter-from, 
   .slide-down-leave-to{
     opacity: 0;
     transform: translateY(300px);
   }
-  
   .slide-down-enter-active,
   .slide-down-leave-active{
     transition: 1s ease-out;
   }
-
 </style>

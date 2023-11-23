@@ -96,7 +96,7 @@ const shouldShowTitle = computed(() => {
         </div>
       </div>
       <div class="w-full flex justify-between text-2xl">
-        <button type="button" class="rounded text-white p-3 bg-pubquiz-primary hover:bg-pubquiz-tertiary">
+        <button type="button" class="rounded text-black font-semibold text-xl p-3 bg-pubquiz-primary hover:bg-pubquiz-tertiary">
           <RouterLink to="/"><i class="fa-solid fa-house pr-5"></i>Home</RouterLink>
         </button>
       </div>
