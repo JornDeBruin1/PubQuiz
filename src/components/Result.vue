@@ -27,16 +27,21 @@ const importImagePath = () => {
   }
 };
 
-
 onMounted(() => {
   importImagePath();
 });
+
+const clickable = computed(() => nextQuizId.value < quizes.value.length);
 
 const handleImageLoad = () => {
   isImageLoaded.value = true;
 };
 
 const navigateToNext = () => {
+  if (!clickable.value) {
+    return;
+  }
+
   isImageLoaded.value = false;
   
   router.push(`/quiz/${nextQuizId.value}`).then(() => {
@@ -44,9 +49,6 @@ const navigateToNext = () => {
     window.location.reload();
   });
 };
-
-// console.log("image:", quizImage)
-
 </script>
 
 <template>
@@ -57,12 +59,10 @@ const navigateToNext = () => {
       </h1>
     </div>
     <div 
-      class=
-        "flex flex-col justify-evenly
-        w-[400px] h-[450px] mx-auto shadow-Custom 
-        bg-white cursor-pointer rounded-2xl"
-        @click="navigateToNext"
-      >
+      class="flex flex-col justify-evenly w-[400px] h-[450px] mx-auto shadow-Custom bg-white cursor-pointer rounded-2xl"
+      @click="navigateToNext"
+      :class="{ 'pointer-events-none': !clickable }"
+    >
       <img :src="quizImage" alt="Quiz Picture" class="h-[300px] w-full mt-[-60px] rounded-2xl" @load="handleImageLoad" v-show="isImageLoaded">
       <h2 v-if="isImageLoaded" class="text-3xl font-bold mx-auto">{{ nextQuiz ? nextQuiz.name : 'End' }}</h2>
     </div>
@@ -73,4 +73,3 @@ const navigateToNext = () => {
     </button>
   </div>
 </template>
-

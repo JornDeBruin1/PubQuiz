@@ -23,6 +23,7 @@
 
 <style scoped>
 .card{
+    background: white;
     width: 310px;
     overflow: hidden;
     border-radius: 2%;
