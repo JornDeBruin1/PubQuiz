@@ -12,37 +12,11 @@
 </script>
 
 <template>
-    <div class="card" @click="navigateToQuiz">
-        <img :src="quiz.img" alt="">
-        <div class="card-text">
-            <h2>{{quiz.name}}</h2>
+    <div class="bg-white w-[310px] overflow-hidden rounded-md shadow-Custom mb-9 mr-5 cursor-pointer" @click="navigateToQuiz">
+        <img class="w-full h-48 m-0" :src="quiz.img" alt="">
+        <div class="py-0 px-3">
+            <h2 class="font-bold">{{quiz.name}}</h2>
             <p>{{quiz.questions.length}} questions</p>
         </div>
     </div>
 </template>
-
-<style scoped>
-.card{
-    background: white;
-    width: 310px;
-    overflow: hidden;
-    border-radius: 2%;
-    box-shadow: 1px 1px 10px rgb(0,0,0,0.1);
-    margin-bottom:35px ;
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  .card img{
-    width: 100%;
-    height: 190px;
-    margin: 0;
-  }
-
-  .card .card-text{
-    padding: 0 5px;
-  }
-
-  .card .card-text h2{
-    font-weight: bold;
-  }
-</style>

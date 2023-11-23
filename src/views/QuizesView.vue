@@ -1,9 +1,12 @@
 
 <template>
+ 
   <div>
     <header class="mb-3 mt-8 flex items-center">
-      <h1 class="font-bold mr-8">Quizes</h1>
-      <input class="border-none bg-[#8080801A] p-2.5 rounded" v-model.trim="search" type="text" placeholder="Search...">
+      <div class="flex">
+        <h1 class="font-bold mr-8 text-3xl">Pub Quiz</h1>
+        <input class="border-none bg-[#8080801A] p-2.5 rounded" v-model.trim="search" type="text" placeholder="Search...">
+      </div>
     </header>
     <div class="flex flex-wrap mt-10">
       <Card v-for="quiz in filteredQuizes" :key="quiz.id" :quiz="quiz"></Card>
