@@ -22,7 +22,7 @@ const importImagePath = () => {
   } else {
     // If there is no next quiz (last result), set the image path accordingly
     const lastResultImagePath = '/images/end.jpg';
-    console.log('lastResultImagePath:', lastResultImagePath);
+    // console.log('lastResultImagePath:', lastResultImagePath);
     quizImage.value = lastResultImagePath;
   }
 };
@@ -63,8 +63,8 @@ onMounted(() => {
   }
 });
 const shouldShowTitle = computed(() => {
-  console.log('isImageLoaded:', isImageLoaded.value);
-  console.log('nextQuiz:', nextQuiz.value);
+  // console.log('isImageLoaded:', isImageLoaded.value);
+  // console.log('nextQuiz:', nextQuiz.value);
   return isImageLoaded.value && nextQuiz.value;
 });
 

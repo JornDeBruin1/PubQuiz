@@ -19,7 +19,7 @@ const questionStatus = computed(() => `${Math.min(currentQuestionIndex.value + 1
 const barPercentage = computed(() => {
   const percentagePerQuestion = 100 / maxQuestionLength;
   const totalPercentage = currentQuestionIndex.value * percentagePerQuestion;
-  console.log(`Total Percentage: ${totalPercentage}`);
+  // console.log(`Total Percentage: ${totalPercentage}`);
 
   return `${Math.min(totalPercentage, 100)}%`;
 });
@@ -28,10 +28,10 @@ const onOptionSelected = (isCorrect) => {
   if (isCorrect) {
     numberOfCorrectAnswers.value++;
   }
-  console.log("nummer 1", showResults.value)
+  // console.log("nummer 1", showResults.value)
   if (currentQuestionIndex.value === maxQuestions - 1) {
     showResults.value = true;
-    console.log("nummer", showResults.value)
+    // console.log("nummer", showResults.value)
   } else {
     currentQuestionIndex.value++;
   }
