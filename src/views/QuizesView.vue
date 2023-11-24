@@ -20,7 +20,6 @@ import Card from '../components/Card.vue'
 
 const quizes = ref(q);
 
-// Exclude the sixth quiz from being shown
 const filteredQuizes = computed(() => {
   const lastQuiz = quizes.value[quizes.value.length - 1];
   // console.log('Quizes before filtering:', quizes.value.map(quiz => quiz.id));

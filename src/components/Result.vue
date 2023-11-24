@@ -20,7 +20,6 @@ const importImagePath = () => {
   if (nextQuiz.value && nextQuiz.value.img) {
     quizImage.value = nextQuiz.value.img;
   } else {
-    // If there is no next quiz (last result), set the image path accordingly
     const lastResultImagePath = '/images/end.jpg';
     // console.log('lastResultImagePath:', lastResultImagePath);
     quizImage.value = lastResultImagePath;
@@ -37,10 +36,9 @@ const displayedQuiz = ref(null);
 
 const handleImageLoad = () => {
   isImageLoaded.value = true;
-  displayedQuiz.value = { ...nextQuiz.value }; // Update the displayed quiz here
+  displayedQuiz.value = { ...nextQuiz.value };
 };
 
-// And in your navigateToNext method
 
 const navigateToNext = () => {
   if (!clickable.value) {
