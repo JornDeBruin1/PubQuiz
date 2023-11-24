@@ -23,13 +23,13 @@
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Oostenrijk",
+                        "text": "SchotLand",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Noorwegen",
+                        "text": "Tasmanië",
                         "isCorrect": false
                     }
                 ]
@@ -126,30 +126,30 @@
             },
             {
                 "id": 5,
-                "text": "In welk jaar ging de eerste Shrek film in premiere?",
+                "text": "Wat was Rocky`s achternaam in de boksfilm 'Rocky'",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "2001",
+                        "text": "Rocky Creed",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "2000",
-                        "isCorrect": false
+                        "text": "Rocky Balboa",
+                        "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "2003",
+                        "text": "Rocky Stallion",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "2005",
+                        "text": "Rocky Sullivan",
                         "isCorrect": false
                     }
                 ]
@@ -313,30 +313,30 @@
             },
             {
                 "id": 3,
-                "text": "Naar welke twee eilanden werd Napoleon verbannen",
+                "text": "Nadat Napoleon eerst naar Elba was verbannen.Hier wist hij van te ontsnappen om terug te keren naar Frankrijk, maar hij werd later opnieuw verslagen en verbannen naar welk ander eiland werd Napoleon verbannen?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Île-de-Bréhat, Bermuda",
+                        "text": "Bermuda",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Elba, st Helena",
+                        "text": "Sint-Helena",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Île-de-Batz, Maritius ",
+                        "text": "Maritius ",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Île d'Yeu, Isla Santa cruz ",
+                        "text": "Isla Santa cruz ",
                         "isCorrect": false
                     }
                 ]
@@ -433,7 +433,7 @@
             },
             {
                 "id": 7,
-                "text": "Welke Japanse stad, samen met Hiroshima, werd in 1945 getroffen door een atoombom?",
+                "text": "Welke Japanse stad, samen met Hiroshima, werd getroffen door een atoombom?",
                 "options": [
                     {
                         "id": 1,
@@ -463,7 +463,7 @@
             },
             {
                 "id": 8,
-                "text": "Wie was de leider van de USSR (Sovjet Unie) ",
+                "text": "Wie was de leider van de USSR (Sovjet Unie) tijdens de tweede wereld oorlog ",
                 "options": [
                     {
                         "id": 1,
@@ -1096,13 +1096,13 @@
                         "id": 2,
                         "label": "B",
                         "text": "Saturnus",
-                        "isCorrect": false
+                        "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
                         "text": "Jupiter",
-                        "isCorrect": true
+                        "isCorrect": false
                     },
                     {
                         "id": 4,
