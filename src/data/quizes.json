@@ -932,25 +932,25 @@
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Steppe",
+                        "text": "2 C°",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "IJswoestijn",
+                        "text": "8 C°",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Savanne",
+                        "text": "4 C°",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Toendra",
+                        "text": "6 C°",
                         "isCorrect": true
                     }
                 ]

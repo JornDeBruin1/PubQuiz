@@ -11,6 +11,4 @@ app.use(router);
 
 initGoogleAnalytics()
 
-
-
 app.mount('#app');

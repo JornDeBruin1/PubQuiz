@@ -4,6 +4,5 @@ export default function initGoogleAnalytics() {
     gtag('js', new Date());
   
     gtag('config', 'G-GBMCB139YG');
-  
     }
 

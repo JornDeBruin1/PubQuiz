@@ -3,7 +3,7 @@ import { ref, computed, onMounted } from 'vue';
 import { useRoute, RouterLink } from 'vue-router';
 import router from '../router';
 import quizesData from '@/data/quizes.json';
-import imageMap from '../data/imageImports';
+// import imageMap from '../data/imageImports';
 
 const route = useRoute();
 const { quiz } = defineProps(['quiz']);

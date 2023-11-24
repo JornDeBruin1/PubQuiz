@@ -26,6 +26,7 @@ const filteredQuizes = computed(() => {
   
   const filtered = quizes.value.filter(quiz => quiz !== lastQuiz);
   
+  
   // console.log('Quizes after filtering:', filtered.map(quiz => quiz.id));
 
   return filtered;
