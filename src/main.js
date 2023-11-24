@@ -2,13 +2,12 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import './assets/tailwind.css'
-import { initGoogleAnalytics } from './services/googleAnalyticService';
+import initGoogleAnalytics from './services/googleAnalyticsService';
 
-initGoogleAnalytics();
+const app = createApp(App);
 
+app.use(router);
 
-const app = createApp(App)
+initGoogleAnalytics()
 
-app.use(router)
-
-app.mount('#app')
+app.mount('#app');
