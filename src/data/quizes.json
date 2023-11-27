@@ -253,30 +253,30 @@
         "questions": [
             {
                 "id": 1,
-                "text": "Welke Nederlandse stad werd tijdens de Tweede wereld Oorlog zwaar gebombardeerd door geallieerde troepen tijdens Operatie Market Garden?",
+                "text": "De Slag om Arnhem is een bekend onderdeel van de militaire operatie Market Garden. Wanneer vond de Slag om Arnhem plaats?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Arnhem",
+                        "text": "September 1944",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Rotterdam",
+                        "text": "Maart 1944",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Amsterdam",
+                        "text": "September 1943",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Nijmegen ",
+                        "text": "Januari 1945",
                         "isCorrect": false
                     }
                 ]
