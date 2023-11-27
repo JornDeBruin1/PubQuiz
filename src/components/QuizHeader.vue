@@ -7,7 +7,7 @@
   </header>
 </template>
 
-<script setup>
+<script setup >
     import { defineProps } from 'vue';
 
     const { questionStatus, barPercentage } = defineProps([
