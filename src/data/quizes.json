@@ -994,30 +994,30 @@
         "questions": [
             {
                 "id": 1,
-                "text": "Welke koning in een spel kaarten heeft als enige geen snor?",
+                "text": "Wie heeft twee Nobelprijzen gewonnen in verschillende vakgebieden?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "De Schoppen koning",
+                        "text": "Albert einstein",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "De Harten koning",
+                        "text": "Marie Curie",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "De Ruiten Koning",
+                        "text": "J. Robert Oppenheimer",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "De Klaveren koning",
+                        "text": "Irène Joliot-Curie",
                         "isCorrect": false
                     }
                 ]
