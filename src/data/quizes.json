@@ -927,30 +927,30 @@
             },
             {
                 "id": 7,
-                "text": "Hoeveel graden daalt de temperatuur gemiddeld per kilometer als je omhoog gaat in de atmosfeer?",
+                "text": "Met hoeveel graden daalt de temperatuur gemiddeld per kilometer als je omhoog gaat in de atmosfeer?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "2 C°",
+                        "text": "-2 C°",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "8 C°",
+                        "text": "-8 C°",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "4 C°",
+                        "text": "-4 C°",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "6 C°",
+                        "text": "-6 C°",
                         "isCorrect": true
                     }
                 ]
