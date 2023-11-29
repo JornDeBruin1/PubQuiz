@@ -343,30 +343,30 @@
             },
             {
                 "id": 4,
-                "text": "Op hoeveel heuvels werd de oude stad Rome gebouwd?",
+                "text": "Door Rome heen staan in totaal 13 grote palen. Deze palen worden obelisken genoemd. Rome heeft er zelf 5 gemaakt. Wie heeft de andere acht gemaakt? ",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "4",
+                        "text": "Niemand de Romeinen hebben die zelf gemaakt",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "6",
+                        "text": "De grieken hebben dit cadeau gegeven aan de Romeinen ",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "8",
+                        "text": "Kooplieden uit Perzië hebben dit cadeau gegeven aan de Romeinen",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "7",
+                        "text": "De Egyptenaren hebben dit cadeau gegeven aan de Romeinen",
                         "isCorrect": true
                     }
                 ]
@@ -747,30 +747,30 @@
         "questions": [
             {
                 "id": 1,
-                "text": "In welke Amerikaanse staat bevindt zich grotendeels de Grand Canyon?",
+                "text": "als ik naar de spaanse trappen kijk in welke hoofdstad ben ik? ",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Nevada",
+                        "text": "Madrid",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Arizona",
+                        "text": "Rome",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Utah",
+                        "text": "Berlijn",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Colorado",
+                        "text": "Athene",
                         "isCorrect": false
                     }
                 ]
