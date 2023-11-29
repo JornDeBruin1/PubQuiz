@@ -752,25 +752,25 @@
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Madrid",
+                        "text": "Madrid (Spanje)",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Rome",
+                        "text": "Rome (Italië)",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Berlijn",
+                        "text": "Berlijn (Duitsland)",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Athene",
+                        "text": "Athene (Griekenland)",
                         "isCorrect": false
                     }
                 ]
