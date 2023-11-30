@@ -161,7 +161,7 @@
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "heath ledger",
+                        "text": "Heath Ledger",
                         "isCorrect": false
                     },
                     {
@@ -354,7 +354,7 @@
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "De grieken hebben dit cadeau gegeven aan de Romeinen ",
+                        "text": "De Grieken hebben dit cadeau gegeven aan de Romeinen ",
                         "isCorrect": false
                     },
                     {
@@ -788,7 +788,7 @@
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "San marino",
+                        "text": "San Marino",
                         "isCorrect": false
                     },
                     {
@@ -1059,13 +1059,13 @@
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Een maarschalk",
+                        "text": "Een Maarschalk",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Een sergeant",
+                        "text": "Een Sergeant",
                         "isCorrect": false
                     },
                     {

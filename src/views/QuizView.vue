@@ -50,7 +50,6 @@ const navigate = (direction) => {
   }
 };
 </script>
-
 <template>
   <div>
     <QuizHeader :questionStatus="questionStatus" :barPercentage="barPercentage" />
