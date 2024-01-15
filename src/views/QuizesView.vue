@@ -18,14 +18,10 @@ import Card from '../components/Card.vue';
 
 const quizes = ref(q);
 
+// showing the quizes and removing the final from showing
 const filteredQuizes = computed(() => {
   const lastQuiz = quizes.value[quizes.value.length - 1];
-  // console.log('Quizes before filtering:', quizes.value.map(quiz => quiz.id));
-
   const filtered = quizes.value.filter((quiz) => quiz !== lastQuiz);
-
-  // console.log('Quizes after filtering:', filtered.map(quiz => quiz.id));
-
   return filtered;
 });
 </script>
