@@ -3,7 +3,6 @@ import { ref, computed, onMounted } from 'vue';
 import { useRoute, RouterLink } from 'vue-router';
 import router from '../router';
 import quizesData from '@/data/quizes.json';
-// import imageMap from '../data/imageImports';
 
 const route = useRoute();
 const { quiz } = defineProps(['quiz']);
@@ -21,10 +20,21 @@ const importImagePath = () => {
     quizImage.value = nextQuiz.value.img;
   } else {
     const lastResultImagePath = '/images/end.jpg';
-    // console.log('lastResultImagePath:', lastResultImagePath);
     quizImage.value = lastResultImagePath;
   }
 };
+
+const correctAnswers = computed(() => {
+  const currentQuiz = quizes.value.find((q) => q.id === currentQuizId.value);
+  if (!currentQuiz) return [];
+  return currentQuiz.questions.map((question) => {
+    const correctOption = question.options.find((option) => option.isCorrect);
+    return {
+      question: question.text,
+      correctAnswer: correctOption ? correctOption.text : 'No correct answer found',
+    };
+  });
+});
 
 onMounted(() => {
   importImagePath();
@@ -60,8 +70,6 @@ onMounted(() => {
   }
 });
 const shouldShowTitle = computed(() => {
-  // console.log('isImageLoaded:', isImageLoaded.value);
-  // console.log('nextQuiz:', nextQuiz.value);
   return isImageLoaded.value && nextQuiz.value;
 });
 </script>
@@ -70,32 +78,36 @@ const shouldShowTitle = computed(() => {
   <div>
     <div class="mt-10 flex flex-wrap">
       <div class="flex w-full justify-center">
-        <h1 v-if="nextQuizId < 5" class="mb-[50px] text-3xl font-bold">Volgende Ronde:</h1>
+        <h1 v-if="nextQuizId < 5" class="mb-[50px] text-3xl font-bold">Antwoorden:</h1>
       </div>
-      <div
-        class="mx-auto flex h-[450px] w-[400px] cursor-pointer flex-col justify-evenly rounded-2xl bg-white shadow-Custom"
-        @click="navigateToNext"
-        :class="{ 'pointer-events-none': !clickable }"
-        :key="nextQuizId"
-      >
-        <img
-          :src="quizImage"
-          alt="Quiz Picture"
-          class="mt-[-60px] h-[300px] w-full rounded-2xl"
-          @load="handleImageLoad"
-          v-show="isImageLoaded"
-        />
-        <h2 v-if="shouldShowTitle" class="mx-auto text-3xl font-bold">{{ nextQuiz.name }}</h2>
-        <h2 v-else class="mx-auto text-3xl font-bold">The End</h2>
-      </div>
+    </div>
+    <div>
+      <ul>
+        <li v-for="(answer, index) in correctAnswers" :key="index" class="marginBottom marginLeft">
+          <strong>Question:</strong> {{ answer.question }}<br />
+          <strong>Correct Answer:</strong> {{ answer.correctAnswer }}
+        </li>
+      </ul>
     </div>
     <div class="flex w-full justify-between text-2xl">
       <button
         type="button"
-        class="rounded bg-pubquiz-primary p-3 text-xl font-semibold text-black hover:bg-pubquiz-tertiary"
+        class="marginTop rounded bg-pubquiz-primary p-3 text-xl font-semibold text-black hover:bg-pubquiz-tertiary"
       >
         <RouterLink to="/"><i class="fa-solid fa-house pr-5"></i>Home</RouterLink>
       </button>
     </div>
   </div>
 </template>
+
+<style>
+.marginTop {
+  margin-top: 20px;
+}
+.marginLeft {
+  margin-left: 20px;
+}
+.marginBottom {
+  margin-bottom: 20px;
+}
+</style>

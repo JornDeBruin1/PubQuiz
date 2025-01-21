@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto my-0 h-auto max-w-5xl">
+  <div class="centerMobile mx-auto my-0 h-auto max-w-5xl">
     <RouterView v-slot="{ Component }">
       <transition name="fade" mode="out-in">
         <Component :is="Component" key="$route.fullPath" />
@@ -16,6 +16,13 @@ export default {
 };
 </script>
 <style>
+@media screen and (max-width: 768px) {
+  .centerMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;

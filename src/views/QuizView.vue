@@ -9,8 +9,8 @@ import quizes from '../data/quizes.json';
 const route = useRoute();
 const quizId = parseInt(route.params.id);
 const quiz = quizes.find((q) => q.id === quizId);
-const maxQuestions = 8;
-const maxQuestionLength = 8;
+const maxQuestions = 6;
+const maxQuestionLength = 6;
 const currentQuestionIndex = ref(0);
 const numberOfCorrectAnswers = ref(0);
 const showResults = ref(false);
@@ -63,7 +63,7 @@ const navigate = (direction) => {
       />
       <Result v-else :quizQuestionlength="maxQuestions" :numberOfCorrectAnswers="numberOfCorrectAnswers" />
     </div>
-    <div class="mt-4 flex justify-between">
+    <div class="paddingLeft paddingRight mt-4 flex justify-between">
       <button
         class="rounded bg-pubquiz-primary p-3 text-xl font-semibold text-black hover:bg-pubquiz-tertiary"
         v-if="!showResults && currentQuestionIndex > 0"
@@ -81,3 +81,11 @@ const navigate = (direction) => {
     </div>
   </div>
 </template>
+<style>
+.paddingLeft {
+  padding-left: 10px;
+}
+.paddingRight {
+  padding-right: 10px;
+}
+</style>
